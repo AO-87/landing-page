@@ -1,0 +1,39 @@
+* {
+    font-family: roboto;
+    color: #f9faf8;
+}
+
+.top-container {
+    background-color: #1f2937;
+    
+}
+
+.header-left,
+ .header-right {
+    
+    font-size: 24px;
+
+}
+
+ul {
+    list-style: none;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-body h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-body h2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    color: darkblue;
+}
