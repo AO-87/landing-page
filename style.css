@@ -3,6 +3,10 @@
     
 }
 
+body {
+    margin: 0;
+}
+
 .top-container {
     color: #f9faf8;
     background-color: #1f2937;
@@ -153,4 +157,12 @@ img {
     border-radius: 10px;
     background-color: #3882f6;
     padding: 6px 18px;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px;
+    font-weight: 100;
 }
