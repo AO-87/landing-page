@@ -7,9 +7,13 @@ body {
     margin: 0;
 }
 
-.top-container {
+.top-container,
+.footer {
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+.top-container {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
@@ -23,7 +27,8 @@ body {
 }
 
 .header-left,
- .header-right { 
+ .header-right,
+ .sig { 
     font-size: 24px;
 }
 
@@ -94,7 +99,8 @@ img {
     border-radius: 10px;
 }
 
-.text {
+.text,
+.footer {
     text-align: center;
 }
 
@@ -125,7 +131,6 @@ img {
 }
 
 .sig {
-    font-size: 24px;
     font-weight: bolder;
     align-self: flex-end;
     padding-top: 30px;
@@ -160,9 +165,6 @@ img {
 }
 
 .footer {
-    color: #f9faf8;
-    background-color: #1f2937;
-    text-align: center;
     padding: 24px;
     font-weight: 100;
 }
