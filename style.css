@@ -126,3 +126,31 @@ img {
     align-self: flex-end;
     padding-top: 30px;
 }
+
+.base-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 75px 250px;
+    padding: 18px 24px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
+
+.base-left {
+    color: #f9faf8;
+    margin-right: 40px;
+}
+
+.base-left p {
+    margin: 2px;
+}
+
+.base-button button {
+    color: #f9faf8;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 6px 18px;
+}
